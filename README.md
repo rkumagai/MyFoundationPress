@@ -11,3 +11,7 @@ $ npm install
 
 ## 2. For building all the assets.
 
+```
+$ npm run build
+$ npm run production
+```

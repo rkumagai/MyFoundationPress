@@ -1,0 +1,32 @@
+.widget_categories {
+    div.columns > ul > li > a {
+        font-weight: bold;
+    }
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+    .children li {
+        float: left;
+        margin: 0 0.45rem 0 0;
+    }
+}
+.sidebar h6 {
+    font-weight: bold;
+    font-size: $global-font-size*1.25;
+    border-bottom: 2px solid #0a0a0a;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
